@@ -1,0 +1,73 @@
+body {
+    color: goldenrod;
+    background: rgb(31, 29, 29);
+    font-family: "Montserrat", sans-serif;
+    margin-top:100px;
+    margin:0px;
+}
+
+header {
+    border-bottom: solid 2px;
+    border-color: #ffffff;
+    color: gold;
+    font-size:32px;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 2x;
+    margin-top: 5px;
+}
+
+section {
+    background-color: rgb(31, 29, 29);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content:center;
+    border-bottom: solid 2px;
+    border-color: #ffffff;
+}
+
+.título-principal {
+    margin-right: 20px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.h2{
+    justify-content: center;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+}
+
+.outros-videos {
+    display:flex;
+    gap: 15px;
+    overflow-x:auto;
+}
+
+img {
+    justify-content:center;
+    height:250px;
+}
+
+.videos{
+    padding-left: 20px;
+    padding-right: 2opx;
+}
+
+.outros-videos img {
+    opacity:0.5;
+    height: 200px
+}
+
+.outros-videos img:hover {
+    opacity: 1.0;
+    border: 1px, solid, white;
+}
